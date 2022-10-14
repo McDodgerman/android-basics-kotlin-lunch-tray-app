@@ -1,0 +1,187 @@
+# 2022-08-31T01:32:29.424Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 3
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "MenuContentTests"
+    test_package: "com.example.lunchtray"
+    test_method: "side_menu_item_content"
+    start_time {
+      seconds: 1661909514
+      nanos: 726000000
+    }
+    end_time {
+      seconds: 1661909515
+      nanos: 66000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState\nat androidx.fragment.app.FragmentManager.checkStateLoss(FragmentManager.java:1551)\nat androidx.fragment.app.FragmentManager.ensureExecReady(FragmentManager.java:1652)\nat androidx.fragment.app.FragmentManager.execSingleAction(FragmentManager.java:1666)\nat androidx.fragment.app.BackStackRecord.commitNow(BackStackRecord.java:317)\nat androidx.fragment.app.testing.FragmentScenario$Companion.internalLaunch$lambda-2(FragmentScenario.kt:628)\nat androidx.fragment.app.testing.FragmentScenario$Companion.$r8$lambda$qQn68eFQCuWOFZCsJdZ7z8QDNvM(Unknown Source:0)\nat androidx.fragment.app.testing.FragmentScenario$Companion$$ExternalSyntheticLambda0.perform(Unknown Source:13)\nat androidx.test.core.app.ActivityScenario.lambda$onActivity$2$ActivityScenario(ActivityScenario.java:660)\nat androidx.test.core.app.ActivityScenario$$Lambda$4.run(ActivityScenario.java:652)\nat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2414)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loop(Looper.java:233)\nat android.app.ActivityThread.main(ActivityThread.java:8068)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)"
+    error_type: "java.lang.IllegalStateException"
+    stack_trace: "java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState\nat androidx.fragment.app.FragmentManager.checkStateLoss(FragmentManager.java:1551)\nat androidx.fragment.app.FragmentManager.ensureExecReady(FragmentManager.java:1652)\nat androidx.fragment.app.FragmentManager.execSingleAction(FragmentManager.java:1666)\nat androidx.fragment.app.BackStackRecord.commitNow(BackStackRecord.java:317)\nat androidx.fragment.app.testing.FragmentScenario$Companion.internalLaunch$lambda-2(FragmentScenario.kt:628)\nat androidx.fragment.app.testing.FragmentScenario$Companion.$r8$lambda$qQn68eFQCuWOFZCsJdZ7z8QDNvM(Unknown Source:0)\nat androidx.fragment.app.testing.FragmentScenario$Companion$$ExternalSyntheticLambda0.perform(Unknown Source:13)\nat androidx.test.core.app.ActivityScenario.lambda$onActivity$2$ActivityScenario(ActivityScenario.java:660)\nat androidx.test.core.app.ActivityScenario$$Lambda$4.run(ActivityScenario.java:652)\nat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2414)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loop(Looper.java:233)\nat android.app.ActivityThread.main(ActivityThread.java:8068)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\logcat-com.example.lunchtray.MenuContentTests-side_menu_item_content.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MenuContentTests"
+    test_package: "com.example.lunchtray"
+    test_method: "entree_menu_item_content"
+    start_time {
+      seconds: 1661909515
+      nanos: 108000000
+    }
+    end_time {
+      seconds: 1661909548
+      nanos: 126000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1736)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.lunchtray.MenuContentTests.entree_menu_item_content(MenuContentTests.kt:49)"
+    error_type: "androidx.test.espresso.NoActivityResumedException"
+    stack_trace: "androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1736)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.lunchtray.MenuContentTests.entree_menu_item_content(MenuContentTests.kt:49)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\logcat-com.example.lunchtray.MenuContentTests-entree_menu_item_content.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MenuContentTests"
+    test_package: "com.example.lunchtray"
+    test_method: "accompaniment_menu_item_content"
+    start_time {
+      seconds: 1661909548
+      nanos: 152000000
+    }
+    end_time {
+      seconds: 1661909548
+      nanos: 445000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState\nat androidx.fragment.app.FragmentManager.checkStateLoss(FragmentManager.java:1551)\nat androidx.fragment.app.FragmentManager.ensureExecReady(FragmentManager.java:1652)\nat androidx.fragment.app.FragmentManager.execSingleAction(FragmentManager.java:1666)\nat androidx.fragment.app.BackStackRecord.commitNow(BackStackRecord.java:317)\nat androidx.fragment.app.testing.FragmentScenario$Companion.internalLaunch$lambda-2(FragmentScenario.kt:628)\nat androidx.fragment.app.testing.FragmentScenario$Companion.$r8$lambda$qQn68eFQCuWOFZCsJdZ7z8QDNvM(Unknown Source:0)\nat androidx.fragment.app.testing.FragmentScenario$Companion$$ExternalSyntheticLambda0.perform(Unknown Source:13)\nat androidx.test.core.app.ActivityScenario.lambda$onActivity$2$ActivityScenario(ActivityScenario.java:660)\nat androidx.test.core.app.ActivityScenario$$Lambda$4.run(ActivityScenario.java:652)\nat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2414)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loop(Looper.java:233)\nat android.app.ActivityThread.main(ActivityThread.java:8068)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)"
+    error_type: "java.lang.IllegalStateException"
+    stack_trace: "java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState\nat androidx.fragment.app.FragmentManager.checkStateLoss(FragmentManager.java:1551)\nat androidx.fragment.app.FragmentManager.ensureExecReady(FragmentManager.java:1652)\nat androidx.fragment.app.FragmentManager.execSingleAction(FragmentManager.java:1666)\nat androidx.fragment.app.BackStackRecord.commitNow(BackStackRecord.java:317)\nat androidx.fragment.app.testing.FragmentScenario$Companion.internalLaunch$lambda-2(FragmentScenario.kt:628)\nat androidx.fragment.app.testing.FragmentScenario$Companion.$r8$lambda$qQn68eFQCuWOFZCsJdZ7z8QDNvM(Unknown Source:0)\nat androidx.fragment.app.testing.FragmentScenario$Companion$$ExternalSyntheticLambda0.perform(Unknown Source:13)\nat androidx.test.core.app.ActivityScenario.lambda$onActivity$2$ActivityScenario(ActivityScenario.java:660)\nat androidx.test.core.app.ActivityScenario$$Lambda$4.run(ActivityScenario.java:652)\nat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2414)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loop(Looper.java:233)\nat android.app.ActivityThread.main(ActivityThread.java:8068)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\logcat-com.example.lunchtray.MenuContentTests-accompaniment_menu_item_content.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\lxngu\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app\\app\\build\\outputs\\androidTest-results\\connected\\ONEPLUS A6003 - 11\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

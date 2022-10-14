@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.stargrazer.lunchtray.app-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "com.stargrazer.lunchtray.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.stargrazer.lunchtray.app-mergeDebugResources-50:/layout/fragment_start_order.xml",
+        "source": "com.stargrazer.lunchtray.app-main-53:/layout/fragment_start_order.xml"
+    },
+    {
+        "merged": "com.stargrazer.lunchtray.app-mergeDebugResources-50:/layout/fragment_accompaniment_menu.xml",
+        "source": "com.stargrazer.lunchtray.app-main-53:/layout/fragment_accompaniment_menu.xml"
+    },
+    {
+        "merged": "com.stargrazer.lunchtray.app-mergeDebugResources-50:/layout/fragment_side_menu.xml",
+        "source": "com.stargrazer.lunchtray.app-main-53:/layout/fragment_side_menu.xml"
+    },
+    {
+        "merged": "com.stargrazer.lunchtray.app-mergeDebugResources-50:/layout/fragment_entree_menu.xml",
+        "source": "com.stargrazer.lunchtray.app-main-53:/layout/fragment_entree_menu.xml"
+    },
+    {
+        "merged": "com.stargrazer.lunchtray.app-mergeDebugResources-50:/layout/fragment_checkout.xml",
+        "source": "com.stargrazer.lunchtray.app-main-53:/layout/fragment_checkout.xml"
+    }
+]

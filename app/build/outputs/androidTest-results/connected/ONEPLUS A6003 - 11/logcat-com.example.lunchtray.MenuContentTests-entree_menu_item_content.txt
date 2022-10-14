@@ -1,0 +1,177 @@
+08-30 20:31:56.636 28923 28945 I TestRunner: started: entree_menu_item_content(com.example.lunchtray.MenuContentTests)
+08-30 20:31:56.636 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@831b615 in: DESTROYED
+08-30 20:31:56.637 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@831b615
+08-30 20:31:56.640 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@22757e8 in: DESTROYED
+08-30 20:31:56.640 28923 28923 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+08-30 20:31:56.653 19819 19819 D RecentsView: onTaskRemoved taskId = 657
+08-30 20:31:56.656 19819 19819 D RecentsView: onTaskRemoved taskId = 657
+08-30 20:31:56.658 28923 28945 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+08-30 20:31:56.676  1531  6213 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+08-30 20:31:56.688   993  1024 E ANDR-IOP: io prefetch is disabled
+08-30 20:31:56.690  1531  6213 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+08-30 20:31:56.698  1531  1740 D OpPowerConsumpStatsInjector: notifyPkgEvent
+08-30 20:31:56.710 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124 in: PRE_ON_CREATE
+08-30 20:31:56.711 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.711 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.725 28923 28923 E ample.lunchtra: Invalid ID 0x00000000.
+08-30 20:31:56.728 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124 in: CREATED
+08-30 20:31:56.728 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.729 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.731 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124 in: STARTED
+08-30 20:31:56.732 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.732 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.743 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124 in: RESUMED
+08-30 20:31:56.744 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.744 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.749 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124 in: PAUSED
+08-30 20:31:56.749 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.749 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.754  1531  5414 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+08-30 20:31:56.762 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845 in: PRE_ON_CREATE
+08-30 20:31:56.763 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+08-30 20:31:56.763 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+08-30 20:31:56.765  1531  1740 D OpPowerConsumpStatsInjector: notifyPkgEvent
+08-30 20:31:56.767  1531  1740 D OpPowerConsumpStatsInjector: notifyPkgEvent
+08-30 20:31:56.770 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845 in: CREATED
+08-30 20:31:56.771 28923 28923 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.771 28923 28923 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.773 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845 in: STARTED
+08-30 20:31:56.773 28923 28923 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.773 28923 28923 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.774 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845 in: RESUMED
+08-30 20:31:56.774 28923 28923 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.775 28923 28923 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.780 28923 28923 V ViewRootImpl: The specified message queue synchronization  barrier token has not been posted or has already been removed
+08-30 20:31:56.790 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845 in: PAUSED
+08-30 20:31:56.791 28923 28923 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.791 28923 28923 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.792 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124 in: STOPPED
+08-30 20:31:56.792 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.792 28923 28923 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@e267124
+08-30 20:31:56.804  1531  1740 D OpPowerConsumpStatsInjector: notifyPkgEvent
+08-30 20:31:56.860  2389  2389 D EdgeBackGestureHandler: updateTopPackage isHomeApp false
+08-30 20:31:56.900 28923 28923 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845 in: STOPPED
+08-30 20:31:56.900 28923 28923 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.900 28923 28923 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@1178845
+08-30 20:31:56.929 28923 28945 D EventInjectionStrategy: Creating injection strategy with input manager.
+08-30 20:31:56.929 28923 28945 W ample.lunchtra: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+08-30 20:31:56.930 28923 28945 W ample.lunchtra: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+08-30 20:31:56.930 28923 28945 W ample.lunchtra: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+08-30 20:31:56.948 15472 15495 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+08-30 20:31:56.948 15472 15495 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+08-30 20:31:56.950 15472 15495 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+08-30 20:31:56.951 15472 28833 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-30 20:31:56.959 15472 15495 I FontLog : Pulling font file for id = 60, cache size = 4 [CONTEXT service_id=132 ]
+08-30 20:31:56.962 28923 28923 W ample.lunchtra: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+08-30 20:31:56.962 28923 28923 W ample.lunchtra: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+08-30 20:31:56.962 28923 28923 W ample.lunchtra: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+08-30 20:31:56.966 28923 28923 W RootViewPicker: No activity currently resumed - waiting: 10ms for one to appear.
+08-30 20:31:56.967 15472 15495 I FontLog : Pulling font file for id = 60, cache size = 4 [CONTEXT service_id=132 ]
+08-30 20:31:56.977 28923 28923 W RootViewPicker: No activity currently resumed - waiting: 50ms for one to appear.
+08-30 20:31:57.029 28923 28923 W RootViewPicker: No activity currently resumed - waiting: 100ms for one to appear.
+08-30 20:31:57.133 28923 28923 W RootViewPicker: No activity currently resumed - waiting: 500ms for one to appear.
+08-30 20:31:57.636 28923 28923 W RootViewPicker: No activity currently resumed - waiting: 2000ms for one to appear.
+08-30 20:31:57.907  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:31:57.907  2389  2389 D OpSWarpChargingView: level is same as latest one [100]
+08-30 20:31:57.910  2389  2389 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+08-30 20:31:57.910  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:31:57.910  2389  2389 D KeyguardUpdateMonitor: pdCharge false, chargingstatus 0, fastcharge:0
+08-30 20:31:57.911  2389  2551 D BatterySaverTile: handleUpdateState, true, false
+08-30 20:31:57.956  2992  2992 D DeviceStatisticsService: chargerType=2 batteryLevel=100 totalBatteryCapacity=4356500
+08-30 20:31:58.739   996  1044 E ANDR-PERF-OPTSHANDLER: perf_lock_rel: failed for /sys/class/devfreq/soc:qcom,llccbw/min_freq as previous value is not stored
+08-30 20:31:58.741   996  1044 E ANDR-PERF-OPTSHANDLER: perf_lock_rel: failed for /sys/class/devfreq/soc:qcom,cpubw/min_freq as previous value is not stored
+08-30 20:31:59.642 28923 28923 W RootViewPicker: No activity currently resumed - waiting: 30000ms for one to appear.
+08-30 20:31:59.979  1031  4542 E oemlogkit: oemlogkit: Android log path: (null). Inside
+08-30 20:31:59.980  1031  4542 E oemlogkit: oemlogkit: !start_log, sleep
+08-30 20:32:00.136   819   879 W Netd    : No subsystem found in netlink event
+08-30 20:32:04.301  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:32:04.302  2389  2389 D OpSWarpChargingView: level is same as latest one [100]
+08-30 20:32:04.303  2389  2389 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+08-30 20:32:04.303  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:32:04.303  2389  2389 D KeyguardUpdateMonitor: pdCharge false, chargingstatus 0, fastcharge:0
+08-30 20:32:04.304  2389  2551 D BatterySaverTile: handleUpdateState, true, false
+08-30 20:32:04.357  2992  2992 D DeviceStatisticsService: chargerType=2 batteryLevel=100 totalBatteryCapacity=4356500
+08-30 20:32:04.357  2992  2992 D DeviceInfoHidlClient: isPowerInfoNeverSent()=true
+08-30 20:32:08.868 15662 15662 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:com.google.android.gms.feedback.internal.IFeedbackService cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+08-30 20:32:10.031  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:32:10.031  2389  2389 D OpSWarpChargingView: level is same as latest one [100]
+08-30 20:32:10.032  2389  2389 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+08-30 20:32:10.032  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:32:10.032  2389  2389 D KeyguardUpdateMonitor: pdCharge false, chargingstatus 0, fastcharge:0
+08-30 20:32:10.033  2389  2551 D BatterySaverTile: handleUpdateState, true, false
+08-30 20:32:10.136  2992  2992 D DeviceStatisticsService: chargerType=2 batteryLevel=100 totalBatteryCapacity=4356500
+08-30 20:32:10.137  2992  2992 D DeviceInfoHidlClient: isPowerInfoNeverSent()=true
+08-30 20:32:11.676   996  1044 E ANDR-PERF-OPTSHANDLER: Unable to find the correct node storage pointers for                   resource index=16, node path=/proc/sys/kernel/sched_upmigrate
+08-30 20:32:11.677   996  1044 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [3, 7]
+08-30 20:32:11.677   996  1044 E ANDR-PERF-OPTSHANDLER: Unable to find the correct node storage pointers for                   resource index=17, node path=/proc/sys/kernel/sched_downmigrate
+08-30 20:32:11.677   996  1044 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [3, 8]
+08-30 20:32:11.677   996  1044 E ANDR-PERF-OPTSHANDLER: perf_lock_rel: failed for /sys/module/lpm_levels/parameters/bias_hyst as previous value is not stored
+08-30 20:32:11.677   996  1044 E ANDR-PERF-OPTSHANDLER: perf_lock_rel: failed for /proc/sys/kernel/sched_group_upmigrate as previous value is not stored
+08-30 20:32:11.677   996  1044 E ANDR-PERF-OPTSHANDLER: perf_lock_rel: failed for /proc/sys/kernel/sched_group_downmigrate as previous value is not stored
+08-30 20:32:17.739  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:32:17.739  2389  2389 D OpSWarpChargingView: level is same as latest one [100]
+08-30 20:32:17.741  2389  2389 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+08-30 20:32:17.741  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:32:17.741  2389  2551 D BatterySaverTile: handleUpdateState, true, false
+08-30 20:32:17.741  2389  2389 D KeyguardUpdateMonitor: pdCharge false, chargingstatus 0, fastcharge:0
+08-30 20:32:17.786  2992  2992 D DeviceStatisticsService: chargerType=2 batteryLevel=100 totalBatteryCapacity=4356500
+08-30 20:32:17.787  2992  2992 D DeviceInfoHidlClient: isPowerInfoNeverSent()=true
+08-30 20:32:22.063 15063 15106 I Finsky  : [51914] exy.run(15): AIM: AppInfoManager-Perf > Destroying AppInfoManager ...
+08-30 20:32:22.202 15063 15102 I Finsky  : [51911] exy.run(15): AIM: AppInfoManager-Perf > Destroying AppInfoManager ...
+08-30 20:32:23.092 15063 15106 I Finsky  : [51914] exy.run(15): AIM: AppInfoManager-Perf > Destroying AppInfoManager ...
+08-30 20:32:23.266 15063 15104 I Finsky  : [51913] exy.run(15): AIM: AppInfoManager-Perf > Destroying AppInfoManager ...
+08-30 20:32:24.103   819   879 W Netd    : No subsystem found in netlink event
+08-30 20:32:24.778  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:32:24.779  2389  2389 D OpSWarpChargingView: level is same as latest one [100]
+08-30 20:32:24.780  2389  2389 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+08-30 20:32:24.780  2389  2389 I OpUtils : isSupportWarpCharging:false
+08-30 20:32:24.780  2389  2551 D BatterySaverTile: handleUpdateState, true, false
+08-30 20:32:24.780  2389  2389 D KeyguardUpdateMonitor: pdCharge false, chargingstatus 0, fastcharge:0
+08-30 20:32:24.836  2992  2992 D DeviceStatisticsService: chargerType=2 batteryLevel=100 totalBatteryCapacity=4356600
+08-30 20:32:25.223  1489  1780 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+08-30 20:32:25.225  1489  1592 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+08-30 20:32:25.271  3067  3067 D PhoneInterfaceManager: [PhoneIntfMgr] getPhoneFromSubId: 1
+08-30 20:32:25.280  1489  1592 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+08-30 20:32:25.285  1489  1592 I chatty  : uid=1001(radio) DispatcherModul identical 6 lines
+08-30 20:32:25.286  1489  1592 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+08-30 20:32:25.298  3067  3067 D MDM-OPMdmListener: onCellInfoChanged the cellInfo changed phoneId 0
+08-30 20:32:29.682 28923 28945 E TestRunner: failed: entree_menu_item_content(com.example.lunchtray.MenuContentTests)
+08-30 20:32:29.682 28923 28945 E TestRunner: ----- begin exception -----
+08-30 20:32:29.683 28923 28945 E TestRunner: androidx.test.espresso.NoActivityResumedException: No activities in stage RESUMED. Did you forget to launch the activity. (test.getActivity() or similar)?
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at java.lang.Thread.getStackTrace(Thread.java:1736)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at com.example.lunchtray.MenuContentTests.entree_menu_item_content(MenuContentTests.kt:49)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:444)
+08-30 20:32:29.683 28923 28945 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2396)
+08-30 20:32:29.683 28923 28945 E TestRunner: ----- end exception -----
+08-30 20:32:29.685 28923 28945 I TestRunner: finished: entree_menu_item_content(com.example.lunchtray.MenuContentTests)
